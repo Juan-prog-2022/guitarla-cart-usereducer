@@ -6,6 +6,22 @@ This project was refactored from a custom hook approach to useReducer, improving
 
 ---
 
+## 🚀 Live Demo
+
+👉 https://fantastic-queijadas-43d563.netlify.app
+
+---
+
+## 📸 Preview
+
+### 🛒 Empty Cart
+![Empty Cart](./public/screenshots/empty-cart.png)
+
+### 🛍️ Cart with Products
+![Cart with Products](./public/screenshots/cart-items.png)
+
+---
+
 ## 🚀 Features
 
 - 🛒 Add and remove products from cart
@@ -32,22 +48,9 @@ This project was refactored from a custom hook approach to useReducer, improving
 - React
 - TypeScript
 - Vite
-- CSS / Bootstrap
+- Bootstrap
 
 ---
-
-👨‍💻 Author
-
-Juan Quiroz
-
-
----
-
-# 📸 5. SCREENSHOTS 
-
-```md
-![Cart Preview](./public/screenshots/cart.png)
-
 
 ## 📦 Installation
 

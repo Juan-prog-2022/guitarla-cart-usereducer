@@ -36,6 +36,19 @@ This project was refactored from a custom hook approach to useReducer, improving
 
 ---
 
+👨‍💻 Author
+
+Juan Quiroz
+
+
+---
+
+# 📸 5. SCREENSHOTS 
+
+```md
+![Cart Preview](./public/screenshots/cart.png)
+
+
 ## 📦 Installation
 
 ```bash

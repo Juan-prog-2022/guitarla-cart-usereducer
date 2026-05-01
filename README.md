@@ -1,27 +1,45 @@
-# React + TypeScript + Vite
+# GuitarLA Cart 🎸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Shopping cart application built with React and TypeScript.
 
-Currently, two official plugins are available:
+This project was refactored from a custom hook approach to useReducer, improving state management, scalability, and maintainability.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 🛒 Add and remove products from cart
+- ➕ Increase / ➖ decrease quantity
+- 🔒 Quantity limits (min / max)
+- 💾 Persistent cart using localStorage
+- ⚛️ State management with useReducer
+- 🧠 Derived state (total price, empty cart)
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## 🧠 What I Learned
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Migrating from `useState` / custom hooks to `useReducer`
+- Centralizing business logic in reducers
+- Using `dispatch` and action patterns
+- Managing immutable state updates
+- Separating UI from logic
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- TypeScript
+- Vite
+- CSS / Bootstrap
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/Juan-prog-2022/guitar-la-ts-usereducer.git
+cd guitar-la-ts-usereducer
+npm install
+npm run dev

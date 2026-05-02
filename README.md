@@ -15,10 +15,10 @@ This project was refactored from a custom hook approach to useReducer, improving
 ## 📸 Preview
 
 ### 🛒 Empty Cart
-![Empty Cart](./public/screenshots/empty-cart.png)
+![Empty Cart](./public/img/screenshots/empty-cart.png)
 
 ### 🛍️ Cart with Products
-![Cart with Products](./public/screenshots/cart-items.png)
+![Cart with Products](./public/img/screenshots/cart-items.png)
 
 ---
 
